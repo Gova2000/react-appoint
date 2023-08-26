@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.main {
+  padding: 8vh;
+  font-family: roboto;
+}
+.car1 {
+  display: flex;
+  justify-content: flex-start;
+
+  flex-direction: column;
+}
+.car2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.h1 {
+  font-size: xx-large;
+  margin-bottom: 40px;
+}
+.hat {
+  font-size: larger;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 50px;
+  border: none;
+  height: 30px;
+  text-align: center;
+}
+
+.button1 {
+  background-color: transparent;
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  width: 80px;
+  height: 30px;
+}
+.bt {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-color: #8b5cf6;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  width: 80px;
+  height: 30px;
+}
+hr {
+  border: 1px solid;
+  border-color: #b5b7c4;
+}
+.app {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.unorder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .car2 {
+    flex-direction: column;
+  }
+  form {
+    order: 1;
+  }
+  .img1 {
+    order: 0;
+    width: 300px;
+  }
+  .h1 {
+    font-size: x-large;
+  }
+  input {
+    width: 250px;
+  }
+}
